@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>恭喜</title>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=divice-width, inital-scale=1.0'>
+        <style type='text/css'>
+            h1{
+                text-align:center;
+            }
+            #ger{
+                background:#ff0000;
+            }
+            #prs{
+                width:50px;
+                padding:50px;
+                position:absolute right;
+            }
+            #name{
+                font:#000000;
+            }
+            #t1{
+                background:white;
+            }
+            
+        </style>
+        <script>
+            var idx = 1;
+            function ratt(){
+                if (idx == 1){alert('你真有自信') }
+                else{alert('还来')}
+                idx = 2
+             }
+             function tf1(){
+                 var e1 = document.getElementsById('ger')
+                 alert(e1)
+             }
+        </script>
+    </head>
+    <body>
+        <div id='ger'>
+        <h1>恭喜</h1>
+        <p>热烈祝贺
+        <input id='t1' type='button' value='美女' onclick='ratt()'>
+        <a id='name' href='https://baike.quark.cn/c/lemma/43929347063015#/index'>余俐君</a>
+        </p>
+        <img id='prs' src='./rs/praise.jpg' alt='ne'>
+        </div>
+        <button onclick='ratt()'>BUTTON</button>
+    </body>
+</html>
